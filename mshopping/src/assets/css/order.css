@@ -1,0 +1,232 @@
+@charset "utf-8";
+@import "public.css";
+.header {
+  height: .88rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #f26b11;
+  padding: 0.4rem .23rem 0px;
+}
+.header em {
+  display: block;
+  height: .29rem;
+  width: .17rem;
+  background: url(../images/arrowLeft2.jpg) no-repeat;
+  background-size: .17rem .29rem;
+}
+.header h3 {
+  font: 0.35rem/0.29rem "微软雅黑";
+  color: white;
+}
+.header .menu span {
+  background: white;
+}
+.main {
+  background: #f1f1f1;
+  margin-bottom: 1.8rem;
+}
+.main .top {
+  padding: 0rem .26rem .19rem;
+  display: flex;
+  align-items: center;
+  background: white;
+}
+.main .top .text .who {
+  font: 0.26rem/0.48rem "微软雅黑";
+  margin-top: .13rem;
+  color: #5c5c5c;
+}
+.main .top .text .who span {
+  margin-left: 3rem;
+}
+.main .top .text .addr {
+  font: 0.24rem/0.32rem "微软雅黑";
+  margin-top: .06rem;
+  color: #5c5c5c;
+}
+.main .top .text .addr span {
+  display: inline-block;
+  margin-left: 5em;
+}
+.main .top .right em {
+  display: block;
+  width: .19rem;
+  height: .26rem;
+  background: url(../images/arrowRight.jpg);
+  background-size: .19rem .26rem;
+}
+.main .guige .shop {
+  display: flex;
+  background: white;
+  margin-top: .14rem;
+}
+.main .guige .shop img {
+  height: 1.07rem;
+  margin-top: .21rem;
+  margin-left: .35rem;
+}
+.main .guige .shop .text {
+  display: flex;
+  justify-content: space-between;
+  margin-left: .25rem;
+  width: 5.87rem;
+}
+.main .guige .shop .text .te p {
+  font: 0.26rem/0.48rem "微软雅黑";
+}
+.main .guige .shop .text .te .name {
+  margin-top: .30rem;
+  color: #686868;
+}
+.main .guige .shop .text .te .gui {
+  color: #bfbfbf;
+}
+.main .guige .shop .text .pric {
+  margin-right: .25rem;
+  font: 0.26rem/1.13rem "微软雅黑";
+  color: #dc3836;
+}
+.main .guige .num {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: white;
+}
+.main .guige .num p {
+  font: 0.26rem/1.6rem "微软雅黑";
+  margin-left: .23rem;
+  color: #757575;
+}
+.main .guige .num .n {
+  display: flex;
+  margin-right: .23rem;
+}
+.main .guige .num .n .down {
+  width: .73rem;
+  height: .63rem;
+  border: 1px solid #666666;
+  border-radius: .02rem;
+  text-align: center;
+  font: 0.3rem/0.63rem Arial;
+}
+.main .guige .num .n input {
+  width: 1.17rem;
+  height: .63rem;
+  border: 1px solid #666666;
+  text-align: center;
+  margin: 0rem .09rem;
+}
+.main .guige .num .n .up {
+  width: .73rem;
+  height: .63rem;
+  border: 1px solid #666666;
+  border-radius: .02rem;
+  text-align: center;
+  font: 0.3rem/0.63rem Arial;
+}
+.main .guige .song {
+  padding: 0rem .23rem;
+  display: flex;
+  justify-content: space-between;
+  background: white;
+  border-top: 1px solid #f1f1f1;
+}
+.main .guige .song p {
+  font: 0.26rem/0.97rem "微软雅黑";
+  color: #757575;
+}
+.main .youhui {
+  background: white;
+  margin-top: .12rem;
+  margin-bottom: .1rem;
+}
+.main .youhui .juan {
+  display: flex;
+  justify-content: space-between;
+  padding: 0rem .23rem;
+  border-bottom: 1px solid #f1f1f1;
+}
+.main .youhui .juan > p {
+  font: 0.26rem/1rem "微软雅黑";
+  color: #6a6a6a;
+}
+.main .youhui .jifen {
+  display: flex;
+  justify-content: space-between;
+  padding: 0rem .23rem;
+  align-items: center;
+}
+.main .youhui .jifen p {
+  font: 0.26rem/1rem "微软雅黑";
+  color: #6a6a6a;
+}
+.main .youhui .jifen input {
+  width: 1.49rem;
+  height: .72rem;
+  border-radius: .03rem;
+  border: 1px solid #f1f1f1;
+  text-align: center;
+  font: 0.26rem/0.72rem "微软雅黑";
+}
+.main .youhui .jifen a {
+  display: inline-block;
+  width: .73rem;
+  height: .74rem;
+  border-radius: .03rem;
+  background: #f26b11;
+  font: 0.26rem/0.72rem "微软雅黑";
+  color: white;
+  text-align: center;
+}
+.main .youhui .jifen span {
+  font: 0.26rem/0.72rem "微软雅黑";
+  color: #999999;
+}
+.main .youhui .jifen span .red {
+  color: red;
+}
+.main .txt {
+  background: white;
+  padding: 0rem .2rem;
+  border-bottom: 1px solid #bfbfbf;
+  padding-bottom: .18rem;
+}
+.main .txt .fle {
+  display: flex;
+  justify-content: space-between;
+}
+.main .txt .fle span {
+  font: 0.26rem/0.44rem "微软雅黑";
+  color: #686868;
+}
+.main .txt .fle .pric {
+  color: #e2352f;
+}
+.main .txt .mar {
+  padding-top: .24rem;
+}
+.main .pay {
+  background: white;
+  padding: 0rem .23rem;
+}
+.main .pay p {
+  font: 0.26rem/1.33rem "微软雅黑";
+  padding-left: 3.74rem;
+  color: #606060;
+}
+.main .pay p span {
+  color: #e2352f;
+}
+.main .pay button {
+  width: 3.56rem;
+  height: 1rem;
+  background: #f26b11;
+  font: 0.26rem/1rem "微软雅黑";
+  border: none;
+  color: white;
+  margin-left: 1.95rem;
+}
+.footer a .active {
+  color: #f26b11;
+}

@@ -1,0 +1,90 @@
+.header .menu {
+    display: flex;
+    justify-content: space-between;
+    width: .55rem;
+  }
+  .header .menu span {
+    display: block;
+    width: .12rem;
+    height: .12rem;
+    border-radius: 50%;
+    background: #000000;
+  }
+  .footer {
+    border-top: 1px solid #ebebeb;
+    padding: 0px .50rem;
+    background-color: #ffffff;
+    position: fixed;
+    bottom: 0;
+    left: 50%;
+    margin-left: -3.75rem;
+    width: 7.5rem;
+    height: 1.2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-sizing: border-box;
+  }
+  .footer a {
+    display: block;
+    text-align: center;
+  }
+  .footer a img {
+    height: .53rem;
+    width: auto;
+  }
+  .footer a p {
+    font: 0.2rem/0.44rem "微软雅黑";
+    color: #909090;
+  }
+  .header {
+    height: .88rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #f26b11;
+    padding: 0.4rem .23rem 0px;
+  }
+  .header em {
+    display: block;
+    height: .29rem;
+    width: .17rem;
+    background: url(../images/arrowLeft2.jpg) no-repeat;
+    background-size: .17rem .29rem;
+  }
+  .header h3 {
+    font: 0.35rem/0.29rem "微软雅黑";
+    color: white;
+  }
+  .header .menu span {
+    background: white;
+  }
+  .footer a .active {
+    color: #f26b11;
+  }
+  .main{
+    width: 100%;
+    margin-top: 100px;
+  }
+  .main .telphone,
+  .main .pwd{
+    font-size: .3rem;
+    line-height: 1rem;
+    width: 70%;
+    border-bottom: 2px solid #a3a3a3;
+    margin: 0 auto;
+  }
+  .main a{
+    margin-left: 5.2rem;
+    color: #666666;
+    line-height: .5rem;
+  }
+  .btn{
+    display: block;
+    border: 0;
+    height: 1rem;
+    width: 70%;
+    background-color: #ff9900;
+    color: #ffffff;
+    margin: 1rem auto;
+  }

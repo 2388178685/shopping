@@ -1,0 +1,205 @@
+@charset "utf-8";
+.page {
+  max-width: 7.5rem;
+  margin: 0 auto;
+}
+.page .header .menu {
+  display: flex;
+  justify-content: space-between;
+  width: .55rem;
+}
+.page .header .menu span {
+  display: block;
+  width: .12rem;
+  height: .12rem;
+  border-radius: 50%;
+  background: #ffffff;
+}
+.footer {
+  border-top: 1px solid #ebebeb;
+  padding: 0px .50rem;
+  background-color: #ffffff;
+  position: fixed;
+  bottom: 0;
+  left: 50%;
+  margin-left: -3.75rem;
+  width: 7.5rem;
+  height: 1.2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-sizing: border-box;
+}
+.footer a {
+  display: block;
+  text-align: center;
+}
+.footer a img {
+  height: .53rem;
+  width: auto;
+}
+.footer a p {
+  font: 0.2rem/0.44rem "微软雅黑";
+  color: #909090;
+}
+.page .header {
+  height: .88rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #f26b11;
+  padding: 0.4rem .23rem 0px;
+}
+.header em {
+  display: block;
+  height: .29rem;
+  width: .17rem;
+  background: url(../images/arrowLeft2.jpg) no-repeat;
+  background-size: .17rem .29rem;
+}
+.header h3 {
+  font: 0.35rem/0.29rem "微软雅黑";
+  color: white;
+}
+.header .menu span {
+  background: white;
+}
+.main {
+  overflow: hidden;
+  margin-top: .25rem;
+}
+.main li {
+  width: 113.2%;
+  display: flex;
+}
+.main li .active {
+  width: 7.5rem;
+  display: flex;
+  justify-content: space-between;
+  height: 1.72rem;
+  margin-top: .25rem;
+  box-shadow: 0px 0px 5px #e6e3e3;
+}
+.main li .active em.check {
+  display: inline-block;
+  width: .4rem;
+  height: .4rem;
+  background: url(../images/dui_03.jpg) no-repeat;
+  background-size: .4rem .4rem;
+  margin-top: .66rem;
+  margin-left: .22rem;
+}
+.main li .active img {
+  height: 1.04rem;
+  width: auto;
+  margin-top: .4rem;
+}
+.main li .active .text .shop {
+  margin-top: .03rem;
+  font: 0.26rem/0.53rem "微软雅黑";
+}
+.main li .active .text .gui {
+  font: 0.23rem/0.54rem "微软雅黑";
+}
+.main li .active .text .price {
+  font: 0.32rem/0.45rem Arial;
+}
+.main li .active .number {
+  margin-right: .22rem;
+  width: 2.1rem;
+  height: .58rem;
+  border: 1px solid #333333;
+  border-radius: .02rem;
+  display: flex;
+  justify-content: space-between;
+  margin-top: .82rem;
+}
+.main li .active .number div {
+  width: .62rem;
+  height: .58rem;
+  border-right: 1px solid #333333;
+  text-align: center;
+  line-height: .58rem;
+}
+.main li .active .number input {
+  width: .78rem;
+  height: .58rem;
+}
+.main li .active .number div:nth-child(3) {
+  border-left: 1px solid #333333;
+  border-right: none;
+}
+.main li .delete {
+  width: .9rem;
+  height: 1.72rem;
+  font: 0.24rem/1.72rem "微软雅黑";
+  background: #e43a3d;
+  text-align: center;
+  color: white;
+  margin-top: .25rem;
+}
+.main .two {
+  transform: translate(-0.9rem);
+}
+.main .three .active em {
+  display: inline-block;
+  width: .4rem;
+  height: .4rem;
+  background: url(../images/circle_06.jpg) no-repeat;
+  background-size: .4rem .4rem;
+  margin-top: .66rem;
+  margin-left: .22rem;
+}
+.pay {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  margin-bottom: 1.8rem;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 3.0rem;
+}
+.pay .select em {
+  display: inline-block;
+  width: .4rem;
+  height: .4rem;
+  background: url(../images/circle_06.jpg) no-repeat;
+  /* background: url(../images/dui_03.jpg) no-repeat; */
+  background-size: .4rem .4rem;
+  margin-left: .25rem;
+}
+.pay .select em.all{
+  background: url(../images/dui_03.jpg) no-repeat;
+  background-size: .4rem .4rem;
+}
+
+.pay .select span {
+  font: 0.24rem/1.15rem "微软雅黑";
+}
+.pay .pri p {
+  font: 0.3rem/0.47rem "微软雅黑";
+  margin-top: .15rem;
+  text-align: right;
+}
+.pay .pri .you {
+  font: 0.2rem/0.36rem "微软雅黑";
+  color: #bcbcbc;
+  margin-top: 0;
+}
+.pay .suan {
+  text-align: center;
+}
+.pay .suan a {
+  display: inline-block;
+  height: 1.15rem;
+  width: 2.48rem;
+  background: #f26b11;
+  font: 0.3rem/1.15rem "微软雅黑";
+  color: white;
+}
+.footer a .active {
+  color: #f26b11;
+}
+.number input{
+  text-align: center;
+}

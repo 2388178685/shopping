@@ -1,0 +1,7 @@
+.header em {
+    display: block;
+    height: .29rem;
+    width: .17rem;
+    background: url(../images/arrowLeft2.jpg) no-repeat;
+    background-size: .17rem .29rem;
+  }

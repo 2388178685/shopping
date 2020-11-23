@@ -1,0 +1,146 @@
+@charset "utf-8";
+.page {
+  max-width: 7.5rem;
+  margin: 0 auto;
+}
+.header .menu {
+  display: flex;
+  justify-content: space-between;
+  width: .55rem;
+}
+.header .menu span {
+  display: block;
+  width: .12rem;
+  height: .12rem;
+  border-radius: 50%;
+  background: #000000;
+}
+.footer {
+  border-top: 1px solid #ebebeb;
+  padding: 0px .50rem;
+  background-color: #ffffff;
+  position: fixed;
+  bottom: 0;
+  left: 50%;
+  margin-left: -3.75rem;
+  width: 7.5rem;
+  height: 1.2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-sizing: border-box;
+}
+.footer a {
+  display: block;
+  text-align: center;
+}
+.footer a img {
+  height: .53rem;
+  width: auto;
+}
+.footer a p {
+  font: 0.2rem/0.44rem "微软雅黑";
+  color: #909090;
+}
+.header {
+  height: .88rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #f26b11;
+  padding: 0.4rem .23rem 0px;
+}
+.header em {
+  display: block;
+  height: .29rem;
+  width: .17rem;
+  background: url(../images/arrowLeft2.jpg) no-repeat;
+  background-size: .17rem .29rem;
+}
+.header h3 {
+  font: 0.35rem/0.29rem "微软雅黑";
+  color: white;
+}
+.header .menu span {
+  background: white;
+}
+.main {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 1.8rem;
+}
+.main .nav {
+  width: 1.63rem;
+  height: 11.47rem;
+  padding-top: .4rem;
+  border-right: 1px solid #d9d9d9;
+}
+.main .nav li {
+  height: .53rem;
+  border-left: .08rem solid transparent;
+  margin-bottom: .6rem;
+}
+.main .nav li a {
+  display: inline-block;
+  font: 0.26rem/0.53rem "微软雅黑";
+  color: #676767;
+  margin-left: .39rem;
+}
+.main .nav .active {
+  border-left: .08rem solid #f26b11;
+}
+.main .nav .active a {
+  color: #f5844c;
+}
+.main .right .right1 {
+  margin-left: .27rem;
+  margin-right: .44rem;
+  width: 5.01rem;
+}
+.main .right .right1 .top {
+  display: flex;
+  justify-content: space-between;
+}
+.main .right .right1 .top h5 {
+  font: 0.28rem/1.31rem "微软雅黑";
+  color: #454545;
+}
+.main .right .right1 .top p {
+  font: 0.24rem/1.31rem "微软雅黑";
+  color: #989898;
+  position: relative;
+  padding-right: .17rem;
+}
+.main .right .right1 .top p em {
+  display: block;
+  width: .17rem;
+  height: .16rem;
+  background: url(../images/jiantou_03.jpg) no-repeat;
+  background-size: .17rem .16rem;
+  position: absolute;
+  right: 0;
+  top: .6rem;
+}
+.main .right .right1 .content {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap-reverse;
+}
+.main .right .right1 .content a {
+  display: block;
+}
+.main .right .right1 .content a img {
+  width: 1.54rem;
+  height: auto;
+}
+.main .right .right1 .content a .ran {
+  width: 1.30rem;
+  height: auto;
+}
+.main .right .right1 .content a p {
+  font: 0.24rem/0.69rem "微软雅黑";
+  color: #878787;
+}
+.footer a .active {
+  color: #f26b11;
+}

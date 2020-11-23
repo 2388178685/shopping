@@ -1,0 +1,53 @@
+@charset "utf-8";
+.page {
+  max-width: 7.5rem;
+  margin: 0 auto;
+}
+.header .menu {
+  display: flex;
+  justify-content: space-between;
+  width: .55rem;
+}
+.header .menu span {
+  display: block;
+  width: .12rem;
+  height: .12rem;
+  border-radius: 50%;
+  background: #000000;
+}
+.footer {
+  border-top: 1px solid #ebebeb;
+  padding: 0px .50rem;
+  background-color: #ffffff;
+  position: fixed;
+  bottom: 0;
+  left: 50%;
+  margin-left: -3.75rem;
+  width: 7.5rem;
+  height: 1.2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-sizing: border-box;
+}
+.footer a {
+  display: block;
+  text-align: center;
+}
+.footer a img {
+  height: .53rem;
+  width: auto;
+}
+.footer a p {
+  font: 0.2rem/0.44rem "微软雅黑";
+  color: #909090;
+}
+.footer span{
+  font-size: .5rem;
+}
+.footer .select p,
+.footer .select span{
+  color: #f26b11;
+}
+
+

@@ -1,0 +1,125 @@
+@charset "utf-8";
+.page {
+  max-width: 7.5rem;
+  margin: 0 auto;
+}
+.header .menu {
+  display: flex;
+  justify-content: space-between;
+  width: .55rem;
+}
+.header .menu span {
+  display: block;
+  width: .12rem;
+  height: .12rem;
+  border-radius: 50%;
+  background: #000000;
+}
+.footer {
+  border-top: 1px solid #ebebeb;
+  padding: 0px .50rem;
+  background-color: #ffffff;
+  position: fixed;
+  bottom: 0;
+  left: 50%;
+  margin-left: -3.75rem;
+  width: 7.5rem;
+  height: 1.2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-sizing: border-box;
+}
+.footer a {
+  display: block;
+  text-align: center;
+}
+.footer a img {
+  height: .53rem;
+  width: auto;
+}
+.footer a p {
+  font: 0.2rem/0.44rem "微软雅黑";
+  color: #909090;
+}
+.header {
+  height: .88rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.4rem .23rem 0px;
+}
+.header .jiantoul {
+  display: block;
+  height: .32rem;
+  width: .15rem;
+  background: url(../images/arrowLeft.jpg) no-repeat;
+  background-size: .15rem .32rem;
+}
+.header .logo > img {
+  width: 1.5rem;
+  height: auto;
+}
+.find {
+  position: relative;
+}
+.find em {
+  display: inline-block;
+  width: .26rem;
+  height: .27rem;
+  background: url(../images/search.jpg) no-repeat;
+  background-size: .26rem .27rem;
+  position: absolute;
+  top: .48rem;
+  left: 2.5rem;
+}
+.find .search {
+  width: 6.25rem;
+  height: .77rem;
+  background: #f26b11;
+  border-radius: .33rem;
+  margin: .22rem 0rem 0rem .63rem;
+  text-align: center;
+  font: 0.26rem/0.77rem "微软雅黑";
+}
+.find .search::placeholder {
+  color: white;
+}
+.main {
+  margin-bottom: 3.17rem;
+}
+.main li {
+  margin: 0rem .23rem 0rem .33rem;
+  padding: .54rem 0rem .20rem 0rem;
+  border-bottom: 1px solid #d1d1d1;
+}
+.main li a {
+  display: block;
+  display: flex;
+  justify-content: space-between;
+}
+.main li a img {
+  width: auto;
+  height: 1.53rem;
+}
+.main li a .text {
+  margin-left: .44rem;
+}
+.main li a .text .name {
+  font: 0.26rem/0.33rem "微软雅黑";
+  color: #343434;
+}
+.main li a .text .price {
+  font: 0.3rem/0.54rem Arial;
+  color: #e5393c;
+}
+.main li a .text .ping {
+  font: 0.26rem/0.39rem Arial;
+  color: #9a9a9a;
+}
+.main li a .text .ping span {
+  font: 0.24rem/0.39rem "微软雅黑";
+}
+.footer a .active {
+  color: #f26b11;
+}
